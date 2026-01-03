@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Doctor Management</h1>
+</header>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="patient.html">Patient</a>
+    <a href="doctor.html">Doctor</a>
+</nav>
+
+<!-- Doctor Form -->
+<section class="form-box">
+    <h2>Add Doctor</h2>
+    <input type="text" id="dname" placeholder="Doctor Name">
+    <input type="text" id="specialist" placeholder="Specialization">
+    <input type="number" id="experience" placeholder="Experience (Years)">
+    <input type="text" id="room" placeholder="Room No">
+    <button onclick="addDoctor()">Add Doctor</button>
+</section>
+
+<!-- Doctor Table -->
+<table id="doctorTable">
+    <tr>
+        <th>Name</th>
+        <th>Specialist</th>
+        <th>Experience</th>
+        <th>Room No</th>
+    </tr>
+</table>
+
+<script src="js/doctor.js"></script>
+</body>
+</html>

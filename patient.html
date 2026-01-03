@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Details</title>
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+<header>
+    <h1>Patient Registration</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="patient.html">Patient Details</a>
+    <a href="doctor.html">Doctors</a>
+</nav>
+
+<section class="form-box">
+   
+    <input type="text" id="name" placeholder="Patient Name">
+    <input type="number" id="age" placeholder="Age">
+    <input type="text" id="disease" placeholder="Disease">
+    <input type="text" id="cabin" placeholder="Cabin No">
+    <button onclick="addPatient()">Add Patient</button>
+</section>
+
+<table id="patientTable">
+    <tr>
+        <th>Date</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Disease</th>
+        <th>Cabin No</th>
+    </tr>
+</table>
+
+<script src="js/patient.js"></script>
+</body>
+</html>
